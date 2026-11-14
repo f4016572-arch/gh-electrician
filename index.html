@@ -1,0 +1,1671 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GH ELECTRICIAN | Complete Building Wiring & Architectural Lighting</title>
+  <meta name="description" content="GH ELECTRICIAN by Ghulam Hussain — Complete 2-3 Storey Building Wiring Contracts, Luxury False Ceiling & Heavy Architectural Lighting, DB Panels, and Rapid Electrical Fault Resolution." />
+  <meta name="theme-color" content="#0B0D10" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            obsidian: '#0B0D10',
+            charcoal: '#13171D',
+            panel: '#1A1F28',
+            gold: {
+              DEFAULT: '#F5B700',
+              light: '#FFD23F',
+              dark: '#C99300'
+            }
+          },
+          fontFamily: {
+            display: ['Cinzel', 'serif'],
+            sans: ['Plus Jakarta Sans', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <style>
+    body {
+      background-color: #0B0D10;
+      color: #F3F4F6;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+    .gold-gradient-text {
+      background: linear-gradient(135deg, #FFF3B0 0%, #F5B700 50%, #C99300 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .gold-gradient-bg {
+      background: linear-gradient(135deg, #FFD23F 0%, #F5B700 55%, #C99300 100%);
+    }
+    .gold-border-glow {
+      border: 1px solid rgba(245, 183, 0, 0.28);
+      box-shadow: 0 10px 30px -10px rgba(245, 183, 0, 0.12);
+    }
+    .gold-border-glow:hover {
+      border-color: rgba(245, 183, 0, 0.65);
+      box-shadow: 0 14px 35px -8px rgba(245, 183, 0, 0.25);
+    }
+    .circuit-bg {
+      background-image: radial-gradient(rgba(245, 183, 0, 0.10) 1px, transparent 1px),
+                        linear-gradient(to bottom, rgba(11,13,16,0.92), rgba(11,13,16,0.98));
+      background-size: 28px 28px, 100% 100%;
+    }
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar { width: 8px; }
+    ::-webkit-scrollbar-track { background: #0B0D10; }
+    ::-webkit-scrollbar-thumb { background: #2D3545; border-radius: 4px; }
+    ::-webkit-scrollbar-thumb:hover { background: #F5B700; }
+  </style>
+</head>
+<body class="antialiased selection:bg-gold selection:text-obsidian">
+
+  <!-- TOP NAVIGATION BAR -->
+  <header class="fixed top-0 left-0 right-0 z-40 bg-obsidian/90 backdrop-blur-md border-b border-white/10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      <!-- Brand Logo + Name -->
+      <a href="#home" class="flex items-center gap-3 group">
+        <!-- Custom GH Monogram SVG Logo -->
+        <div class="w-12 h-12 rounded-xl bg-charcoal border border-gold/40 flex items-center justify-center shadow-lg group-hover:border-gold transition">
+          <svg viewBox="0 0 100 100" class="w-9 h-9" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="ghGold" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#FFF3B0"/>
+                <stop offset="50%" stop-color="#F5B700"/>
+                <stop offset="100%" stop-color="#C99300"/>
+              </linearGradient>
+            </defs>
+            <!-- Outer Hexagonal Shield -->
+            <polygon points="50,4 92,26 92,74 50,96 8,74 8,26" stroke="url(#ghGold)" stroke-width="3.5" fill="#0B0D10"/>
+            <!-- Letter G Monogram Left -->
+            <path d="M44 26 H25 V74 H44 V53 H33" stroke="url(#ghGold)" stroke-width="6.5" stroke-linecap="square" stroke-linejoin="miter"/>
+            <!-- Letter H Monogram Right -->
+            <path d="M56 26 V74 M76 26 V74 M56 50 H76" stroke="url(#ghGold)" stroke-width="6.5" stroke-linecap="square"/>
+            <!-- Integrated Center Lightning Bolt -->
+            <path d="M53 16 L41 51 H53 L46 84 L63 46 H50 L53 16 Z" fill="url(#ghGold)"/>
+          </svg>
+        </div>
+        <div>
+          <span class="font-display text-lg sm:text-xl font-bold tracking-wider text-white block leading-none" id="nav-company-name">GH ELECTRICIAN</span>
+          <span class="text-[11px] uppercase tracking-[0.2em] text-gold font-semibold block mt-1">Smart Electrical Contracting</span>
+        </div>
+      </a>
+
+      <!-- Desktop Links -->
+      <nav class="hidden md:flex items-center gap-7 text-sm font-medium text-gray-300">
+        <a href="#about" class="hover:text-gold transition">About</a>
+        <a href="#services" class="hover:text-gold transition">Services</a>
+        <a href="#projects" class="hover:text-gold transition">Before & After</a>
+        <a href="#gallery" class="hover:text-gold transition">Gallery</a>
+        <a href="#team" class="hover:text-gold transition">Team</a>
+        <a href="#contact" class="hover:text-gold transition">Contact</a>
+      </nav>
+
+      <!-- Action Buttons -->
+      <div class="flex items-center gap-2.5">
+        <a id="nav-call-btn" href="tel:+917301346822" class="gold-gradient-bg text-obsidian font-bold text-xs sm:text-sm px-4 py-2.5 rounded-lg flex items-center gap-2 shadow-lg hover:brightness-110 transition">
+          <i data-lucide="phone-call" class="w-4 h-4"></i>
+          <span>Call Now</span>
+        </a>
+        <button onclick="toggleMobileMenu()" class="md:hidden p-2.5 rounded-lg bg-charcoal border border-white/10 text-gray-200">
+          <i data-lucide="menu" class="w-5 h-5"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Dropdown -->
+    <div id="mobile-menu" class="hidden md:hidden bg-charcoal border-b border-white/10 px-4 pt-3 pb-5 space-y-2 text-sm">
+      <a href="#about" onclick="toggleMobileMenu()" class="block py-2 text-gray-200 hover:text-gold">About Us</a>
+      <a href="#services" onclick="toggleMobileMenu()" class="block py-2 text-gray-200 hover:text-gold">Our Services</a>
+      <a href="#projects" onclick="toggleMobileMenu()" class="block py-2 text-gray-200 hover:text-gold">Before & After Projects</a>
+      <a href="#gallery" onclick="toggleMobileMenu()" class="block py-2 text-gray-200 hover:text-gold">Photo & Video Gallery</a>
+      <a href="#why-us" onclick="toggleMobileMenu()" class="block py-2 text-gray-200 hover:text-gold">Why Choose Us</a>
+      <a href="#team" onclick="toggleMobileMenu()" class="block py-2 text-gray-200 hover:text-gold">Our Team</a>
+      <a href="#contact" onclick="toggleMobileMenu()" class="block py-2 text-gray-200 hover:text-gold">Contact & Enquiry</a>
+    </div>
+  </header>
+
+  <!-- 1. HERO SECTION -->
+  <section id="home" class="relative pt-28 pb-20 md:pt-36 md:pb-28 circuit-bg overflow-hidden border-b border-white/10">
+    <!-- Ambient Gold Glow -->
+    <div class="absolute -top-24 left-1/2 -translate-x-1/2 w-[550px] h-[300px] bg-gold/15 blur-[130px] pointer-events-none"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="grid lg:grid-cols-12 gap-12 items-center">
+        <!-- Left Hero Column -->
+        <div class="lg:col-span-7 text-center lg:text-left">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-gold/10 border border-gold/30 text-gold text-xs font-semibold uppercase tracking-widest mb-6">
+            <i data-lucide="zap" class="w-3.5 h-3.5"></i>
+            <span>Turnkey Electrical Contracting & Heavy Lighting</span>
+          </div>
+
+          <h1 class="font-display text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-[1.12]">
+            <span id="hero-company-name">GH ELECTRICIAN</span>
+          </h1>
+
+          <p id="hero-tagline" class="mt-4 text-xl sm:text-2xl font-semibold gold-gradient-text">
+            Complete Building Wiring Contracts, Luxury Architectural Lighting & Rapid Fault Resolution
+          </p>
+
+          <p id="hero-intro" class="mt-5 text-gray-300 text-base sm:text-lg leading-relaxed max-w-2xl mx-auto lg:mx-0">
+            Led by Master Electrician <strong class="text-white">Ghulam Hussain</strong> with over 8+ years of hands-on experience. From complete concealed wiring contracts for newly constructed multi-storey residential buildings, commercial complexes, and offices to breathtaking false-ceiling profile lighting, chandelier installations, and fast fault repair.
+          </p>
+
+          <!-- Primary CTA Buttons -->
+          <div class="mt-8 flex flex-wrap items-center justify-center lg:justify-start gap-3.5">
+            <a id="hero-call-btn" href="tel:+917301346822" class="gold-gradient-bg text-obsidian font-extrabold px-6 py-3.5 rounded-xl flex items-center gap-2.5 shadow-xl hover:scale-[1.02] transition">
+              <i data-lucide="phone" class="w-5 h-5"></i>
+              <span>Call Now</span>
+            </a>
+
+            <a id="hero-wa-btn" href="https://wa.me/917301346822?text=Hello%20GH%20Electrician%2C%20I%20scanned%20your%20card%20and%20want%20to%20discuss%20electrical%20work." target="_blank" rel="noopener" class="bg-[#1FAF54] hover:bg-[#199948] text-white font-bold px-6 py-3.5 rounded-xl flex items-center gap-2.5 shadow-xl hover:scale-[1.02] transition">
+              <i data-lucide="message-circle" class="w-5 h-5"></i>
+              <span>WhatsApp Chat</span>
+            </a>
+
+            <a href="#services" class="bg-charcoal hover:bg-panel text-white border border-gold/30 font-semibold px-5 py-3.5 rounded-xl flex items-center gap-2 transition">
+              <span>Explore Services</span>
+              <i data-lucide="arrow-down-right" class="w-4 h-4 text-gold"></i>
+            </a>
+
+            <button onclick="downloadVCard()" class="bg-white/5 hover:bg-white/10 text-gray-200 border border-white/15 font-medium px-4 py-3.5 rounded-xl flex items-center gap-2 text-sm transition" title="Save Contact to Phone">
+              <i data-lucide="user-plus" class="w-4 h-4 text-gold"></i>
+              <span>Save Contact</span>
+            </button>
+          </div>
+
+          <!-- Key Trust Metrics -->
+          <div class="mt-10 grid grid-cols-3 gap-4 pt-8 border-t border-white/10 max-w-lg mx-auto lg:mx-0">
+            <div>
+              <p class="text-2xl sm:text-3xl font-extrabold text-gold" id="stat-exp">8+ Yrs</p>
+              <p class="text-xs text-gray-400 uppercase tracking-wider mt-1">Field Experience</p>
+            </div>
+            <div>
+              <p class="text-2xl sm:text-3xl font-extrabold text-white">Full Crew</p>
+              <p class="text-xs text-gray-400 uppercase tracking-wider mt-1">Dedicated 4-Pro Team</p>
+            </div>
+            <div>
+              <p class="text-2xl sm:text-3xl font-extrabold text-gold">Turnkey</p>
+              <p class="text-xs text-gray-400 uppercase tracking-wider mt-1">Piping to Final Lighting</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Hero Column: Digital Smart ATM Card Interactive Preview -->
+        <div class="lg:col-span-5">
+          <div class="relative mx-auto max-w-md">
+            <div class="bg-gradient-to-br from-[#191E26] via-[#0F1318] to-[#080A0D] rounded-2xl p-6 sm:p-7 gold-border-glow relative overflow-hidden">
+              <!-- Metallic Gold Corner Accent -->
+              <div class="absolute -right-12 -top-12 w-36 h-36 rounded-full bg-gold/10 blur-xl"></div>
+
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-3">
+                  <div class="w-12 h-12 rounded-xl bg-obsidian border border-gold/50 flex items-center justify-center">
+                    <svg viewBox="0 0 100 100" class="w-8 h-8" fill="none">
+                      <polygon points="50,4 92,26 92,74 50,96 8,74 8,26" stroke="#F5B700" stroke-width="4" fill="#0B0D10"/>
+                      <path d="M44 26 H25 V74 H44 V53 H33" stroke="#F5B700" stroke-width="6.5" stroke-linecap="square"/>
+                      <path d="M56 26 V74 M76 26 V74 M56 50 H76" stroke="#F5B700" stroke-width="6.5" stroke-linecap="square"/>
+                      <path d="M53 16 L41 51 H53 L46 84 L63 46 H50 L53 16 Z" fill="#FFD23F"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <h2 class="font-display text-lg font-bold text-white tracking-wider">GH ELECTRICIAN</h2>
+                    <p class="text-xs text-gold">Verified Smart Business Card</p>
+                  </div>
+                </div>
+                <span class="px-2.5 py-1 rounded bg-gold/15 text-gold text-[10px] font-bold uppercase tracking-widest border border-gold/30">Active</span>
+              </div>
+
+              <!-- Smart Chip Graphic -->
+              <div class="my-6 flex items-center justify-between">
+                <div class="w-12 h-9 rounded-md bg-gradient-to-br from-[#FFE07D] via-[#F5B700] to-[#B68200] p-1.5 shadow-inner flex flex-col justify-between">
+                  <div class="border-b border-obsidian/30 h-2"></div>
+                  <div class="border-b border-obsidian/30 h-2"></div>
+                </div>
+                <div class="text-right">
+                  <p class="text-xs text-gray-400 uppercase tracking-widest">Lead Contractor</p>
+                  <p class="text-base font-bold text-white" id="card-owner-name">GHULAM HUSSAIN</p>
+                </div>
+              </div>
+
+              <!-- Contact Quick Rows -->
+              <div class="space-y-2.5 text-sm border-t border-white/10 pt-4">
+                <div class="flex items-center justify-between text-gray-300">
+                  <span class="flex items-center gap-2 text-xs text-gray-400"><i data-lucide="phone" class="w-3.5 h-3.5 text-gold"></i> Phone / WhatsApp</span>
+                  <a href="tel:+917301346822" class="font-bold text-white hover:text-gold" id="card-phone">+91 7301346822</a>
+                </div>
+                <div class="flex items-center justify-between text-gray-300">
+                  <span class="flex items-center gap-2 text-xs text-gray-400"><i data-lucide="mail" class="w-3.5 h-3.5 text-gold"></i> Email</span>
+                  <a href="mailto:f4016572@gmail.com" class="font-medium text-white hover:text-gold truncate max-w-[190px]" id="card-email">f4016572@gmail.com</a>
+                </div>
+                <div class="flex items-center justify-between text-gray-300">
+                  <span class="flex items-center gap-2 text-xs text-gray-400"><i data-lucide="map-pin" class="w-3.5 h-3.5 text-gold"></i> Office</span>
+                  <span class="font-medium text-white text-right" id="card-address">Bara Guraru, District Gaya, Bihar</span>
+                </div>
+              </div>
+
+              <div class="mt-5 pt-4 border-t border-white/10 flex items-center justify-between">
+                <a id="card-insta" href="https://www.instagram.com/gh_electrician" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 text-xs text-gold hover:underline">
+                  <i data-lucide="instagram" class="w-3.5 h-3.5"></i>
+                  <span>@gh_electrician</span>
+                </a>
+                <a href="#enquiry" class="text-xs font-bold uppercase tracking-wider text-white bg-white/10 hover:bg-gold hover:text-obsidian px-3 py-1.5 rounded-md transition">
+                  Book Inspection →
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. ABOUT US SECTION -->
+  <section id="about" class="py-20 bg-charcoal border-b border-white/10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl">
+        <span class="text-gold text-xs font-bold uppercase tracking-[0.2em]">About Our Company</span>
+        <h2 class="font-display text-3xl sm:text-4xl font-bold text-white mt-2">Precision Electrical Engineering from Foundation to Final Lighting</h2>
+      </div>
+
+      <div class="mt-10 grid lg:grid-cols-12 gap-8 items-start">
+        <div class="lg:col-span-6 bg-obsidian p-7 rounded-2xl gold-border-glow space-y-4">
+          <h3 class="text-xl font-bold text-white flex items-center gap-2.5">
+            <i data-lucide="shield-check" class="w-6 h-6 text-gold"></i>
+            <span>Who We Are</span>
+          </h3>
+          <p id="about-description" class="text-gray-300 leading-relaxed text-sm sm:text-base">
+            Founded and led by <strong class="text-white">Ghulam Hussain</strong>, <strong class="text-gold">GH ELECTRICIAN</strong> brings over 8 years of specialized expertise in residential, commercial, and multi-storey building electrical contracting. Supported by a dedicated crew of 3 to 4 skilled technicians, we undertake complete turnkey building wiring contracts—handling every stage from initial wall chasing and concealed underground conduit piping to balanced load distribution boards (MCB/RCCB) and high-end architectural lighting finishes.
+          </p>
+          <p class="text-gray-400 text-sm leading-relaxed">
+            Whether you are constructing a new 2–3 storey house, setting up a modern commercial showroom or office, upgrading outdated wiring, or facing an urgent electrical fault, our team delivers safe, code-compliant, and visually stunning results.
+          </p>
+        </div>
+
+        <div class="lg:col-span-6 grid sm:grid-cols-2 gap-6">
+          <!-- Mission -->
+          <div class="bg-obsidian p-6 rounded-2xl border border-white/10 hover:border-gold/40 transition">
+            <div class="w-11 h-11 rounded-xl bg-gold/10 border border-gold/30 flex items-center justify-center text-gold mb-4">
+              <i data-lucide="target" class="w-5 h-5"></i>
+            </div>
+            <h4 class="text-lg font-bold text-white">Our Mission</h4>
+            <p id="about-mission" class="mt-2 text-sm text-gray-300 leading-relaxed">
+              To deliver safe, overload-protected concealed electrical networks and luxury final lighting installations with zero compromise on wire gauge quality, safety standards, or project timelines.
+            </p>
+          </div>
+
+          <!-- Vision -->
+          <div class="bg-obsidian p-6 rounded-2xl border border-white/10 hover:border-gold/40 transition">
+            <div class="w-11 h-11 rounded-xl bg-gold/10 border border-gold/30 flex items-center justify-center text-gold mb-4">
+              <i data-lucide="eye" class="w-5 h-5"></i>
+            </div>
+            <h4 class="text-lg font-bold text-white">Our Vision</h4>
+            <p id="about-vision" class="mt-2 text-sm text-gray-300 leading-relaxed">
+              To be the most trusted electrical contracting brand known for transforming raw brick structures into smart, brilliantly illuminated modern homes and commercial spaces.
+            </p>
+          </div>
+
+          <!-- Values -->
+          <div class="sm:col-span-2 bg-obsidian p-6 rounded-2xl border border-white/10">
+            <h4 class="text-base font-bold text-gold uppercase tracking-wider mb-3">Core Professional Values</h4>
+            <div class="grid sm:grid-cols-3 gap-4 text-sm">
+              <div class="flex items-start gap-2.5">
+                <i data-lucide="check-circle-2" class="w-4 h-4 text-gold shrink-0 mt-0.5"></i>
+                <span class="text-gray-200"><strong>Safety First:</strong> Proper earthing, load division & circuit protection.</span>
+              </div>
+              <div class="flex items-start gap-2.5">
+                <i data-lucide="check-circle-2" class="w-4 h-4 text-gold shrink-0 mt-0.5"></i>
+                <span class="text-gray-200"><strong>Aesthetic Finish:</strong> Clean switchboards & luxury false-ceiling lighting.</span>
+              </div>
+              <div class="flex items-start gap-2.5">
+                <i data-lucide="check-circle-2" class="w-4 h-4 text-gold shrink-0 mt-0.5"></i>
+                <span class="text-gray-200"><strong>Accountability:</strong> On-schedule completion & rapid fault response.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. OUR SERVICES SECTION -->
+  <section id="services" class="py-20 bg-obsidian border-b border-white/10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-4">
+        <div>
+          <span class="text-gold text-xs font-bold uppercase tracking-[0.2em]">What We Do</span>
+          <h2 class="font-display text-3xl sm:text-4xl font-bold text-white mt-2">Our Electrical Services</h2>
+        </div>
+        <p class="text-gray-400 text-sm max-w-md">
+          Complete turnkey electrical solutions for new multi-storey residential buildings, commercial shops, offices, and rapid maintenance.
+        </p>
+      </div>
+
+      <!-- Dynamic Services Grid -->
+      <div id="services-grid" class="mt-12 grid sm:grid-cols-2 lg:grid-cols-4 gap-6"></div>
+    </div>
+  </section>
+
+  <!-- 4. OUR PROJECTS (INTERACTIVE BEFORE & AFTER HEAVY LIGHTING SHOWCASE) -->
+  <section id="projects" class="py-20 bg-charcoal border-b border-white/10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-4">
+        <div>
+          <span class="text-gold text-xs font-bold uppercase tracking-[0.2em]">Work Transformation</span>
+          <h2 class="font-display text-3xl sm:text-4xl font-bold text-white mt-2">Completed Projects & Before / After Showcase</h2>
+        </div>
+        <p class="text-gray-400 text-sm max-w-md">
+          Use the <strong class="text-gold">Before / After toggle</strong> on each project card to inspect our concealed piping stage versus the heavy designer final lighting finish.
+        </p>
+      </div>
+
+      <!-- Dynamic Projects Grid -->
+      <div id="projects-grid" class="mt-12 grid md:grid-cols-2 lg:grid-cols-3 gap-8"></div>
+    </div>
+  </section>
+
+  <!-- 5. PHOTO & VIDEO GALLERY SECTION -->
+  <section id="gallery" class="py-20 bg-obsidian border-b border-white/10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-6">
+        <div>
+          <span class="text-gold text-xs font-bold uppercase tracking-[0.2em]">Visual Portfolio</span>
+          <h2 class="font-display text-3xl sm:text-4xl font-bold text-white mt-2">Photo & Video Gallery</h2>
+        </div>
+
+        <!-- Filter Buttons -->
+        <div class="flex flex-wrap gap-2">
+          <button onclick="filterGallery('all')" id="filter-all" class="px-4 py-2 rounded-lg text-xs font-bold uppercase tracking-wider bg-gold text-obsidian transition">All Media</button>
+          <button onclick="filterGallery('final')" id="filter-final" class="px-4 py-2 rounded-lg text-xs font-bold uppercase tracking-wider bg-charcoal text-gray-300 border border-white/10 hover:border-gold transition">Heavy Final Lighting</button>
+          <button onclick="filterGallery('wiring')" id="filter-wiring" class="px-4 py-2 rounded-lg text-xs font-bold uppercase tracking-wider bg-charcoal text-gray-300 border border-white/10 hover:border-gold transition">Piping & DB Panels</button>
+          <button onclick="filterGallery('video')" id="filter-video" class="px-4 py-2 rounded-lg text-xs font-bold uppercase tracking-wider bg-charcoal text-gray-300 border border-white/10 hover:border-gold transition">Videos</button>
+        </div>
+      </div>
+
+      <!-- Dynamic Gallery Grid -->
+      <div id="gallery-grid" class="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+    </div>
+  </section>
+
+  <!-- 6. WHY CHOOSE US SECTION -->
+  <section id="why-us" class="py-20 bg-charcoal border-b border-white/10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto">
+        <span class="text-gold text-xs font-bold uppercase tracking-[0.2em]">The GH Advantage</span>
+        <h2 class="font-display text-3xl sm:text-4xl font-bold text-white mt-2">Why Clients Trust GH ELECTRICIAN</h2>
+      </div>
+
+      <div class="mt-12 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="bg-obsidian p-6 rounded-2xl gold-border-glow">
+          <div class="w-12 h-12 rounded-xl bg-gold/10 border border-gold/30 flex items-center justify-center text-gold mb-4">
+            <i data-lucide="building-2" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-lg font-bold text-white">Full Building Contracts</h3>
+          <p class="mt-2 text-sm text-gray-400 leading-relaxed">
+            Our coordinated 4-member crew handles entire 2–3 storey residential and commercial wiring contracts from initial wall chasing to final handover.
+          </p>
+        </div>
+
+        <div class="bg-obsidian p-6 rounded-2xl gold-border-glow">
+          <div class="w-12 h-12 rounded-xl bg-gold/10 border border-gold/30 flex items-center justify-center text-gold mb-4">
+            <i data-lucide="sparkles" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-lg font-bold text-white">Heavy Final Lighting Look</h3>
+          <p class="mt-2 text-sm text-gray-400 leading-relaxed">
+            Specialized in luxury false-ceiling LED profiles, chandeliers, concealed cove lights, and glass modular touch switchboards.
+          </p>
+        </div>
+
+        <div class="bg-obsidian p-6 rounded-2xl gold-border-glow">
+          <div class="w-12 h-12 rounded-xl bg-gold/10 border border-gold/30 flex items-center justify-center text-gold mb-4">
+            <i data-lucide="shield" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-lg font-bold text-white">Safety-Compliant Wiring</h3>
+          <p class="mt-2 text-sm text-gray-400 leading-relaxed">
+            Floor-wise MCB & RCCB load separation, dedicated heavy-appliance circuits, and deep chemical/rod earthing for total protection.
+          </p>
+        </div>
+
+        <div class="bg-obsidian p-6 rounded-2xl gold-border-glow">
+          <div class="w-12 h-12 rounded-xl bg-gold/10 border border-gold/30 flex items-center justify-center text-gold mb-4">
+            <i data-lucide="clock" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-lg font-bold text-white">Fast Fault Troubleshooting</h3>
+          <p class="mt-2 text-sm text-gray-400 leading-relaxed">
+            Prompt arrival for urgent short-circuit diagnosis, phase load balancing, inverter integration, and transparent upfront estimates.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. OUR TEAM SECTION -->
+  <section id="team" class="py-20 bg-obsidian border-b border-white/10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-4">
+        <div>
+          <span class="text-gold text-xs font-bold uppercase tracking-[0.2em]">Leadership & Crew</span>
+          <h2 class="font-display text-3xl sm:text-4xl font-bold text-white mt-2">Meet Our Team</h2>
+        </div>
+        <p class="text-gray-400 text-sm max-w-md">
+          Experienced professionals committed to clean workmanship, structural safety, and timely project delivery.
+        </p>
+      </div>
+
+      <!-- Dynamic Team Grid -->
+      <div id="team-grid" class="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-8"></div>
+    </div>
+  </section>
+
+  <!-- 8. CONTACT US & 9. CUSTOMER ENQUIRY SECTION -->
+  <section id="contact" class="py-20 bg-charcoal border-b border-white/10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-12 gap-10">
+        <!-- Contact Information Column -->
+        <div class="lg:col-span-5 space-y-6">
+          <div>
+            <span class="text-gold text-xs font-bold uppercase tracking-[0.2em]">Direct Connect</span>
+            <h2 class="font-display text-3xl sm:text-4xl font-bold text-white mt-2">Contact GH ELECTRICIAN</h2>
+            <p class="mt-3 text-gray-400 text-sm leading-relaxed">
+              Planning a new building wiring contract, luxury lighting upgrade, or need urgent electrical troubleshooting? Reach out directly via Call, WhatsApp, or submit an enquiry.
+            </p>
+          </div>
+
+          <div class="space-y-4">
+            <!-- Phone -->
+            <a id="contact-phone-card" href="tel:+917301346822" class="flex items-center gap-4 p-4 rounded-xl bg-obsidian gold-border-glow transition">
+              <div class="w-12 h-12 rounded-xl bg-gold/15 border border-gold/40 flex items-center justify-center text-gold shrink-0">
+                <i data-lucide="phone-call" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <p class="text-xs text-gray-400 uppercase tracking-wider">Direct Phone Line</p>
+                <p class="text-lg font-bold text-white" id="contact-phone-text">+91 7301346822</p>
+              </div>
+            </a>
+
+            <!-- WhatsApp -->
+            <a id="contact-wa-card" href="https://wa.me/917301346822?text=Hello%20GH%20Electrician%2C%20I%20would%20like%20to%20enquire%20about%20your%20electrical%20services." target="_blank" rel="noopener" class="flex items-center gap-4 p-4 rounded-xl bg-obsidian gold-border-glow transition">
+              <div class="w-12 h-12 rounded-xl bg-[#1FAF54]/20 border border-[#1FAF54]/40 flex items-center justify-center text-[#25D366] shrink-0">
+                <i data-lucide="message-circle" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <p class="text-xs text-gray-400 uppercase tracking-wider">WhatsApp Business Chat</p>
+                <p class="text-lg font-bold text-white" id="contact-wa-text">+91 7301346822</p>
+              </div>
+            </a>
+
+            <!-- Email -->
+            <a id="contact-email-card" href="mailto:f4016572@gmail.com" class="flex items-center gap-4 p-4 rounded-xl bg-obsidian gold-border-glow transition">
+              <div class="w-12 h-12 rounded-xl bg-gold/15 border border-gold/40 flex items-center justify-center text-gold shrink-0">
+                <i data-lucide="mail" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <p class="text-xs text-gray-400 uppercase tracking-wider">Official Email</p>
+                <p class="text-base font-bold text-white break-all" id="contact-email-text">f4016572@gmail.com</p>
+              </div>
+            </a>
+
+            <!-- Office Address & Google Maps -->
+            <a id="contact-map-card" href="https://www.google.com/maps/search/?api=1&query=Bara+Guraru+Gaya+Bihar" target="_blank" rel="noopener" class="flex items-center gap-4 p-4 rounded-xl bg-obsidian gold-border-glow transition">
+              <div class="w-12 h-12 rounded-xl bg-gold/15 border border-gold/40 flex items-center justify-center text-gold shrink-0">
+                <i data-lucide="map-pin" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <p class="text-xs text-gray-400 uppercase tracking-wider">Office Location (Tap for Google Maps)</p>
+                <p class="text-base font-bold text-white" id="contact-address-text">Bara Guraru, District Gaya, Bihar</p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- 9. Customer Enquiry Form Column -->
+        <div id="enquiry" class="lg:col-span-7">
+          <div class="bg-obsidian p-7 sm:p-9 rounded-2xl gold-border-glow">
+            <h3 class="font-display text-2xl font-bold text-white">Send a Service Enquiry</h3>
+            <p class="text-sm text-gray-400 mt-1">
+              Submit your project or repair details below. Your request is saved directly to our administrative dashboard for priority callbacks.
+            </p>
+
+            <form id="enquiry-form" onsubmit="submitEnquiry(event)" class="mt-6 space-y-5">
+              <div class="grid sm:grid-cols-2 gap-5">
+                <div>
+                  <label class="block text-xs font-semibold uppercase tracking-wider text-gray-300 mb-2">Your Full Name *</label>
+                  <input type="text" id="enq-name" required placeholder="Enter your name" class="w-full px-4 py-3 rounded-xl bg-charcoal border border-white/15 text-white focus:outline-none focus:border-gold text-sm" />
+                </div>
+                <div>
+                  <label class="block text-xs font-semibold uppercase tracking-wider text-gray-300 mb-2">Phone / WhatsApp Number *</label>
+                  <input type="tel" id="enq-phone" required placeholder="+91 XXXXX XXXXX" class="w-full px-4 py-3 rounded-xl bg-charcoal border border-white/15 text-white focus:outline-none focus:border-gold text-sm" />
+                </div>
+              </div>
+
+              <div>
+                <label class="block text-xs font-semibold uppercase tracking-wider text-gray-300 mb-2">Service Required *</label>
+                <select id="enq-service" required class="w-full px-4 py-3 rounded-xl bg-charcoal border border-white/15 text-white focus:outline-none focus:border-gold text-sm">
+                  <option value="Complete 2-3 Storey Building Wiring Contract">Complete 2-3 Storey Building Wiring Contract</option>
+                  <option value="Heavy Final Look & False Ceiling Lighting">Heavy Final Look & False Ceiling Lighting</option>
+                  <option value="Concealed Underground Piping & Wall Chasing">Concealed Underground Piping & Wall Chasing</option>
+                  <option value="MCB, RCCB & Distribution Board Setup">MCB, RCCB & Distribution Board Setup</option>
+                  <option value="House Rewiring & Load Upgrade">House Rewiring & Load Upgrade</option>
+                  <option value="Inverter, UPS & Heavy Appliance Wiring">Inverter, UPS & Heavy Appliance Wiring</option>
+                  <option value="Commercial Shop / Office Electrical Setup">Commercial Shop / Office Electrical Setup</option>
+                  <option value="Emergency Fault & Short-Circuit Repair">Emergency Fault & Short-Circuit Repair</option>
+                  <option value="Other Electrical Requirement">Other Electrical Requirement</option>
+                </select>
+              </div>
+
+              <div>
+                <label class="block text-xs font-semibold uppercase tracking-wider text-gray-300 mb-2">Project Location & Requirement Details *</label>
+                <textarea id="enq-message" rows="4" required placeholder="Briefly describe your building size, lighting work, or electrical issue..." class="w-full px-4 py-3 rounded-xl bg-charcoal border border-white/15 text-white focus:outline-none focus:border-gold text-sm"></textarea>
+              </div>
+
+              <button type="submit" class="w-full gold-gradient-bg text-obsidian font-extrabold py-4 rounded-xl shadow-lg hover:brightness-110 transition flex items-center justify-center gap-2">
+                <i data-lucide="send" class="w-4 h-4"></i>
+                <span>Submit Enquiry</span>
+              </button>
+
+              <!-- Confirmation Banner -->
+              <div id="enquiry-success" class="hidden p-4 rounded-xl bg-[#1FAF54]/15 border border-[#1FAF54] text-sm text-white">
+                <p class="font-bold text-[#25D366]">✓ Enquiry Received Successfully!</p>
+                <p class="text-xs text-gray-300 mt-1">Thank you! Your details have been logged in the GH ELECTRICIAN dashboard. Ghulam Hussain will contact you shortly.</p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 10. FOOTER -->
+  <footer class="bg-obsidian py-12 text-sm text-gray-400">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-8 pb-8 border-b border-white/10">
+        <div class="flex items-center gap-3.5">
+          <div class="w-11 h-11 rounded-xl bg-charcoal border border-gold/40 flex items-center justify-center">
+            <svg viewBox="0 0 100 100" class="w-8 h-8" fill="none">
+              <polygon points="50,4 92,26 92,74 50,96 8,74 8,26" stroke="#F5B700" stroke-width="4" fill="#0B0D10"/>
+              <path d="M44 26 H25 V74 H44 V53 H33" stroke="#F5B700" stroke-width="6.5" stroke-linecap="square"/>
+              <path d="M56 26 V74 M76 26 V74 M56 50 H76" stroke="#F5B700" stroke-width="6.5" stroke-linecap="square"/>
+              <path d="M53 16 L41 51 H53 L46 84 L63 46 H50 L53 16 Z" fill="#FFD23F"/>
+            </svg>
+          </div>
+          <div>
+            <p class="font-display text-white font-bold text-lg tracking-wider" id="footer-company-name">GH ELECTRICIAN</p>
+            <p class="text-xs text-gray-400">Owner: Ghulam Hussain • Bara Guraru, District Gaya, Bihar</p>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap items-center gap-4">
+          <a id="footer-insta" href="https://www.instagram.com/gh_electrician" target="_blank" rel="noopener" class="px-4 py-2 rounded-lg bg-charcoal border border-white/10 hover:border-gold text-gray-200 flex items-center gap-2 text-xs font-semibold transition">
+            <i data-lucide="instagram" class="w-4 h-4 text-gold"></i>
+            <span>Instagram (@gh_electrician)</span>
+          </a>
+          <button onclick="openAdminModal()" class="px-4 py-2 rounded-lg bg-charcoal border border-white/10 hover:border-gold text-gray-300 flex items-center gap-2 text-xs font-semibold transition">
+            <i data-lucide="lock" class="w-3.5 h-3.5 text-gold"></i>
+            <span>Admin Portal</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="pt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-gray-500 gap-4">
+        <p>© <span id="year"></span> GH ELECTRICIAN. All Rights Reserved.</p>
+        <p>Smart Digital Business Card & Turnkey Electrical Contracting System</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===================================================================== -->
+  <!-- PHASE 6: SECURE ADMIN PANEL MODAL (GOOGLE AUTH + DIRECT UPLOADS)      -->
+  <!-- ===================================================================== -->
+  <div id="admin-modal" class="fixed inset-0 z-50 hidden bg-black/85 backdrop-blur-md overflow-y-auto p-4 sm:p-6">
+    <div class="max-w-5xl mx-auto bg-charcoal border border-gold/40 rounded-2xl shadow-2xl overflow-hidden my-6">
+      <!-- Top Bar -->
+      <div class="bg-obsidian px-6 py-4 border-b border-white/10 flex items-center justify-between">
+        <div class="flex items-center gap-2.5">
+          <i data-lucide="shield-alert" class="w-5 h-5 text-gold"></i>
+          <h3 class="font-display text-lg font-bold text-white">GH ELECTRICIAN — Admin Control Center</h3>
+        </div>
+        <div class="flex items-center gap-3">
+          <button id="admin-logout-btn" onclick="adminLogout()" class="hidden text-xs px-3 py-1.5 rounded bg-red-500/20 text-red-300 border border-red-500/30 hover:bg-red-500/30">
+            Sign Out
+          </button>
+          <button onclick="closeAdminModal()" class="p-1.5 rounded-lg bg-white/5 hover:bg-white/10 text-gray-300">
+            <i data-lucide="x" class="w-5 h-5"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- LOGIN GATE -->
+      <div id="admin-login-view" class="p-8 max-w-md mx-auto text-center space-y-6">
+        <div class="w-16 h-16 rounded-2xl bg-gold/10 border border-gold/30 flex items-center justify-center mx-auto text-gold">
+          <i data-lucide="key-round" class="w-8 h-8"></i>
+        </div>
+        <div>
+          <h4 class="text-xl font-bold text-white">Administrator Authentication</h4>
+          <p class="text-xs text-gray-400 mt-1">
+            Authorized Admin Email: <strong class="text-gold">f4016572@gmail.com</strong>
+          </p>
+        </div>
+
+        <!-- Google Sign-In Button (Works when Firebase Config is saved) -->
+        <button onclick="signInWithGoogleAdmin()" class="w-full py-3.5 px-4 rounded-xl bg-white text-obsidian font-bold text-sm flex items-center justify-center gap-3 shadow hover:bg-gray-100 transition">
+          <svg class="w-5 h-5" viewBox="0 0 24 24">
+            <path fill="#EA4335" d="M12 5c1.6 0 3 .6 4.1 1.7l3.1-3.1C17.3 1.8 14.8 1 12 1 7.4 1 3.5 3.6 1.6 7.4l3.7 2.8C6.2 7.2 8.9 5 12 5z"/>
+            <path fill="#4285F4" d="M23.5 12.3c0-.8-.1-1.6-.2-2.3H12v4.5h6.5c-.3 1.5-1.1 2.8-2.4 3.6l3.7 2.9c2.2-2 3.7-5 3.7-8.7z"/>
+            <path fill="#FBBC05" d="M5.3 14.8c-.2-.8-.4-1.6-.4-2.5s.2-1.7.4-2.5L1.6 7C.6 9 .1 11.2.1 13.5s.5 4.5 1.5 6.5l3.7-2.9z"/>
+            <path fill="#34A853" d="M12 23c3.2 0 6-1.1 8-3l-3.7-2.9c-1.1.7-2.5 1.2-4.3 1.2-3.1 0-5.8-2.1-6.7-5l-3.7 2.8C3.5 19.9 7.4 23 12 23z"/>
+          </svg>
+          <span>Sign In with Google (f4016572@gmail.com)</span>
+        </button>
+
+        <div class="relative flex py-1 items-center">
+          <div class="flex-grow border-t border-white/10"></div>
+          <span class="flex-shrink mx-3 text-[11px] uppercase text-gray-500">Or Admin Master Passcode</span>
+          <div class="flex-grow border-t border-white/10"></div>
+        </div>
+
+        <form onsubmit="loginWithPasscode(event)" class="space-y-3 text-left">
+          <label class="block text-xs text-gray-400">Admin Email</label>
+          <input type="email" id="admin-email-input" value="f4016572@gmail.com" required class="w-full px-3.5 py-2.5 rounded-lg bg-obsidian border border-white/15 text-white text-sm" />
+          <label class="block text-xs text-gray-400">Admin Passcode (Default: <code class="text-gold">GH7301</code> — changeable inside)</label>
+          <input type="password" id="admin-pass-input" placeholder="Enter Admin Passcode" required class="w-full px-3.5 py-2.5 rounded-lg bg-obsidian border border-white/15 text-white text-sm" />
+          <button type="submit" class="w-full gold-gradient-bg text-obsidian font-bold py-3 rounded-xl text-sm">
+            Unlock Admin Dashboard
+          </button>
+        </form>
+        <p id="admin-login-error" class="text-xs text-red-400 hidden"></p>
+      </div>
+
+      <!-- AUTHENTICATED DASHBOARD VIEW -->
+      <div id="admin-dashboard-view" class="hidden">
+        <!-- Admin Navigation Tabs -->
+        <div class="bg-obsidian px-6 py-3 border-b border-white/10 flex flex-wrap gap-2">
+          <button onclick="switchAdminTab('enquiries')" class="admin-tab-btn px-3.5 py-2 rounded-lg text-xs font-bold bg-gold text-obsidian" data-tab="enquiries">1. Customer Enquiries</button>
+          <button onclick="switchAdminTab('company')" class="admin-tab-btn px-3.5 py-2 rounded-lg text-xs font-bold bg-charcoal text-gray-300" data-tab="company">2. Company & Contact Info</button>
+          <button onclick="switchAdminTab('services')" class="admin-tab-btn px-3.5 py-2 rounded-lg text-xs font-bold bg-charcoal text-gray-300" data-tab="services">3. Services</button>
+          <button onclick="switchAdminTab('projects')" class="admin-tab-btn px-3.5 py-2 rounded-lg text-xs font-bold bg-charcoal text-gray-300" data-tab="projects">4. Before/After Projects</button>
+          <button onclick="switchAdminTab('gallery')" class="admin-tab-btn px-3.5 py-2 rounded-lg text-xs font-bold bg-charcoal text-gray-300" data-tab="gallery">5. Photo & Video Gallery</button>
+          <button onclick="switchAdminTab('team')" class="admin-tab-btn px-3.5 py-2 rounded-lg text-xs font-bold bg-charcoal text-gray-300" data-tab="team">6. Team</button>
+          <button onclick="switchAdminTab('cloud')" class="admin-tab-btn px-3.5 py-2 rounded-lg text-xs font-bold bg-charcoal text-gray-300" data-tab="cloud">7. Cloud & Security Setup</button>
+        </div>
+
+        <div class="p-6 space-y-6 max-h-[75vh] overflow-y-auto">
+          <!-- TAB 1: ENQUIRIES -->
+          <div id="tab-enquiries" class="admin-tab-pane space-y-4">
+            <div class="flex items-center justify-between">
+              <h4 class="text-lg font-bold text-white">Customer Enquiries</h4>
+              <span class="text-xs text-gray-400">One-click Call or WhatsApp response</span>
+            </div>
+            <div id="admin-enquiries-list" class="space-y-3"></div>
+          </div>
+
+          <!-- TAB 2: COMPANY & CONTACT INFO -->
+          <div id="tab-company" class="admin-tab-pane hidden space-y-4">
+            <h4 class="text-lg font-bold text-white">Edit Company & Contact Information</h4>
+            <div class="grid sm:grid-cols-2 gap-4 text-sm">
+              <div>
+                <label class="text-xs text-gray-400">Company Name</label>
+                <input id="cfg-companyName" class="w-full mt-1 px-3 py-2 rounded bg-obsidian border border-white/15 text-white" />
+              </div>
+              <div>
+                <label class="text-xs text-gray-400">Owner Name</label>
+                <input id="cfg-ownerName" class="w-full mt-1 px-3 py-2 rounded bg-obsidian border border-white/15 text-white" />
+              </div>
+              <div class="sm:col-span-2">
+                <label class="text-xs text-gray-400">Hero Tagline</label>
+                <input id="cfg-tagline" class="w-full mt-1 px-3 py-2 rounded bg-obsidian border border-white/15 text-white" />
+              </div>
+              <div class="sm:col-span-2">
+                <label class="text-xs text-gray-400">Hero Introduction</label>
+                <textarea id="cfg-heroIntro" rows="2" class="w-full mt-1 px-3 py-2 rounded bg-obsidian border border-white/15 text-white"></textarea>
+              </div>
+              <div class="sm:col-span-2">
+                <label class="text-xs text-gray-400">About Us Paragraph</label>
+                <textarea id="cfg-aboutDesc" rows="3" class="w-full mt-1 px-3 py-2 rounded bg-obsidian border border-white/15 text-white"></textarea>
+              </div>
+              <div>
+                <label class="text-xs text-gray-400">Our Mission</label>
+                <textarea id="cfg-mission" rows="2" class="w-full mt-1 px-3 py-2 rounded bg-obsidian border border-white/15 text-white"></textarea>
+              </div>
+              <div>
+                <label class="text-xs text-gray-400">Our Vision</label>
+                <textarea id="cfg-vision" rows="2" class="w-full mt-1 px-3 py-2 rounded bg-obsidian border border-white/15 text-white"></textarea>
+              </div>
+              <div>
+                <label class="text-xs text-gray-400">Primary Phone (with +91)</label>
+                <input id="cfg-phone" class="w-full mt-1 px-3 py-2 rounded bg-obsidian border border-white/15 text-white" />
+              </div>
+              <div>
+                <label class="text-xs text-gray-400">WhatsApp Number (digits only with 91, e.g. 917301346822)</label>
+                <input id="cfg-whatsapp" class="w-full mt-1 px-3 py-2 rounded bg-obsidian border border-white/15 text-white" />
+              </div>
+              <div>
+                <label class="text-xs text-gray-400">Email Address</label>
+                <input id="cfg-email" class="w-full mt-1 px-3 py-2 rounded bg-obsidian border border-white/15 text-white" />
+              </div>
+              <div>
+                <label class="text-xs text-gray-400">Business Address</label>
+                <input id="cfg-address" class="w-full mt-1 px-3 py-2 rounded bg-obsidian border border-white/15 text-white" />
+              </div>
+              <div>
+                <label class="text-xs text-gray-400">Google Maps URL</label>
+                <input id="cfg-mapUrl" class="w-full mt-1 px-3 py-2 rounded bg-obsidian border border-white/15 text-white" />
+              </div>
+              <div>
+                <label class="text-xs text-gray-400">Instagram Profile URL</label>
+                <input id="cfg-instaUrl" class="w-full mt-1 px-3 py-2 rounded bg-obsidian border border-white/15 text-white" />
+              </div>
+            </div>
+            <button onclick="saveCompanyConfig()" class="gold-gradient-bg text-obsidian font-bold px-6 py-2.5 rounded-lg text-sm">
+              Save Company & Contact Details
+            </button>
+          </div>
+
+          <!-- TAB 3: SERVICES -->
+          <div id="tab-services" class="admin-tab-pane hidden space-y-5">
+            <div class="bg-obsidian p-4 rounded-xl border border-white/10 space-y-3">
+              <h5 class="font-bold text-white text-sm">Add New Electrical Service</h5>
+              <div class="grid sm:grid-cols-2 gap-3 text-sm">
+                <input id="new-srv-title" placeholder="Service Title (e.g. Complete Building Wiring)" class="px-3 py-2 rounded bg-charcoal border border-white/15 text-white" />
+                <input id="new-srv-badge" placeholder="Category Tag (e.g. Turnkey Contract)" class="px-3 py-2 rounded bg-charcoal border border-white/15 text-white" />
+                <div class="sm:col-span-2">
+                  <textarea id="new-srv-desc" rows="2" placeholder="Service Description..." class="w-full px-3 py-2 rounded bg-charcoal border border-white/15 text-white"></textarea>
+                </div>
+                <div>
+                  <label class="text-xs text-gray-400 block mb-1">Upload Photo from Device Gallery</label>
+                  <input type="file" id="new-srv-file" accept="image/*" class="text-xs text-gray-300" />
+                </div>
+                <div>
+                  <label class="text-xs text-gray-400 block mb-1">Or Paste Image URL</label>
+                  <input id="new-srv-url" placeholder="https://..." class="w-full px-3 py-2 rounded bg-charcoal border border-white/15 text-white" />
+                </div>
+              </div>
+              <button onclick="addServiceItem()" class="gold-gradient-bg text-obsidian font-bold px-5 py-2 rounded-lg text-xs">
+                + Add Service
+              </button>
+            </div>
+            <div id="admin-services-list" class="grid sm:grid-cols-2 gap-4"></div>
+          </div>
+
+          <!-- TAB 4: PROJECTS (BEFORE / AFTER) -->
+          <div id="tab-projects" class="admin-tab-pane hidden space-y-5">
+            <div class="bg-obsidian p-4 rounded-xl border border-white/10 space-y-3">
+              <h5 class="font-bold text-white text-sm">Add Before & After Project Showcase</h5>
+              <p class="text-xs text-gray-400">Upload both the "Before" (Raw Piping/Wiring) photo and the "After" (Heavy Final Lighting Look) photo from your gallery.</p>
+              <div class="grid sm:grid-cols-2 gap-3 text-sm">
+                <input id="new-prj-title" placeholder="Project Title (e.g. 3-Storey Residence Lighting & Wiring)" class="px-3 py-2 rounded bg-charcoal border border-white/15 text-white" />
+                <input id="new-prj-cat" placeholder="Project Type (e.g. Residential Turnkey)" class="px-3 py-2 rounded bg-charcoal border border-white/15 text-white" />
+                <div class="sm:col-span-2">
+                  <textarea id="new-prj-desc" rows="2" placeholder="Describe the wiring & final heavy lighting setup..." class="w-full px-3 py-2 rounded bg-charcoal border border-white/15 text-white"></textarea>
+                </div>
+                <div class="p-3 rounded bg-charcoal border border-white/10">
+                  <label class="text-xs text-gold font-bold block mb-1">1. AFTER Photo (Heavy Final Look) *</label>
+                  <input type="file" id="new-prj-after-file" accept="image/*" class="text-xs text-gray-300 mb-2" />
+                  <input id="new-prj-after-url" placeholder="Or paste After Image URL" class="w-full px-2.5 py-1.5 rounded bg-obsidian border border-white/15 text-white text-xs" />
+                </div>
+                <div class="p-3 rounded bg-charcoal border border-white/10">
+                  <label class="text-xs text-gray-300 font-bold block mb-1">2. BEFORE Photo (Wall Piping / Raw Wiring Stage)</label>
+                  <input type="file" id="new-prj-before-file" accept="image/*" class="text-xs text-gray-300 mb-2" />
+                  <input id="new-prj-before-url" placeholder="Or paste Before Image URL" class="w-full px-2.5 py-1.5 rounded bg-obsidian border border-white/15 text-white text-xs" />
+                </div>
+              </div>
+              <button onclick="addProjectItem()" class="gold-gradient-bg text-obsidian font-bold px-5 py-2 rounded-lg text-xs">
+                + Add Project to Website
+              </button>
+            </div>
+            <div id="admin-projects-list" class="grid sm:grid-cols-2 gap-4"></div>
+          </div>
+
+          <!-- TAB 5: GALLERY (PHOTOS + VIDEOS + AI VIDEOS) -->
+          <div id="tab-gallery" class="admin-tab-pane hidden space-y-5">
+            <div class="bg-obsidian p-4 rounded-xl border border-white/10 space-y-3">
+              <h5 class="font-bold text-white text-sm">Upload Gallery Photo or Video (Site Video / AI Video / Link)</h5>
+              <div class="grid sm:grid-cols-3 gap-3 text-sm">
+                <input id="new-gal-title" placeholder="Caption (e.g. Royal Chandelier & Profile Light)" class="px-3 py-2 rounded bg-charcoal border border-white/15 text-white" />
+                <select id="new-gal-category" class="px-3 py-2 rounded bg-charcoal border border-white/15 text-white">
+                  <option value="final">Heavy Final Lighting Photo</option>
+                  <option value="wiring">Piping & DB Panel Photo</option>
+                  <option value="video">Video (Direct Video Upload or Link)</option>
+                </select>
+                <input id="new-gal-url" placeholder="Paste Image/Video/YouTube URL (optional)" class="px-3 py-2 rounded bg-charcoal border border-white/15 text-white" />
+                <div class="sm:col-span-3">
+                  <label class="text-xs text-gray-400 block mb-1">Or Select Photo / Video File Directly from Device Gallery:</label>
+                  <input type="file" id="new-gal-file" accept="image/*,video/*" class="text-xs text-gray-300" />
+                </div>
+              </div>
+              <button onclick="addGalleryItem()" class="gold-gradient-bg text-obsidian font-bold px-5 py-2 rounded-lg text-xs">
+                + Upload to Gallery
+              </button>
+            </div>
+            <div id="admin-gallery-list" class="grid sm:grid-cols-3 gap-4"></div>
+          </div>
+
+          <!-- TAB 6: TEAM -->
+          <div id="tab-team" class="admin-tab-pane hidden space-y-5">
+            <div class="bg-obsidian p-4 rounded-xl border border-white/10 space-y-3">
+              <h5 class="font-bold text-white text-sm">Add Team Member</h5>
+              <div class="grid sm:grid-cols-3 gap-3 text-sm">
+                <input id="new-team-name" placeholder="Full Name" class="px-3 py-2 rounded bg-charcoal border border-white/15 text-white" />
+                <input id="new-team-role" placeholder="Designation (e.g. Senior Wiring Technician)" class="px-3 py-2 rounded bg-charcoal border border-white/15 text-white" />
+                <input id="new-team-phone" placeholder="Phone Number (Optional)" class="px-3 py-2 rounded bg-charcoal border border-white/15 text-white" />
+                <div class="sm:col-span-2">
+                  <label class="text-xs text-gray-400 block mb-1">Upload Member Photo</label>
+                  <input type="file" id="new-team-file" accept="image/*" class="text-xs text-gray-300" />
+                </div>
+                <input id="new-team-url" placeholder="Or Photo URL" class="px-3 py-2 rounded bg-charcoal border border-white/15 text-white" />
+              </div>
+              <button onclick="addTeamMember()" class="gold-gradient-bg text-obsidian font-bold px-5 py-2 rounded-lg text-xs">
+                + Add Team Member
+              </button>
+            </div>
+            <div id="admin-team-list" class="grid sm:grid-cols-2 gap-4"></div>
+          </div>
+
+          <!-- TAB 7: CLOUD & SECURITY SETUP -->
+          <div id="tab-cloud" class="admin-tab-pane hidden space-y-5 text-sm">
+            <div class="bg-obsidian p-5 rounded-xl border border-white/10 space-y-4">
+              <h5 class="font-bold text-gold">1. Admin Passcode & Authorized Google Email</h5>
+              <div class="grid sm:grid-cols-2 gap-4">
+                <div>
+                  <label class="text-xs text-gray-400">Authorized Google Admin Email</label>
+                  <input id="sec-admin-email" value="f4016572@gmail.com" readonly class="w-full mt-1 px-3 py-2 rounded bg-charcoal border border-white/10 text-gray-400" />
+                </div>
+                <div>
+                  <label class="text-xs text-gray-400">Change Admin Master Passcode</label>
+                  <input id="sec-admin-pass" placeholder="New Passcode" class="w-full mt-1 px-3 py-2 rounded bg-charcoal border border-white/15 text-white" />
+                </div>
+              </div>
+              <button onclick="updateAdminPasscode()" class="bg-white/10 hover:bg-gold hover:text-obsidian text-white font-bold px-4 py-2 rounded-lg text-xs transition">
+                Update Passcode
+              </button>
+            </div>
+
+            <div class="bg-obsidian p-5 rounded-xl border border-white/10 space-y-4">
+              <h5 class="font-bold text-gold">2. Cloudinary Direct Image & Video Upload Config (Free Tier)</h5>
+              <p class="text-xs text-gray-400">
+                Paste your free Cloudinary Cloud Name and Unsigned Upload Preset so large gallery photos and AI/site videos upload directly to cloud storage.
+              </p>
+              <div class="grid sm:grid-cols-2 gap-4">
+                <input id="cld-cloud-name" placeholder="Cloudinary Cloud Name (e.g. dxyz1234)" class="px-3 py-2 rounded bg-charcoal border border-white/15 text-white" />
+                <input id="cld-upload-preset" placeholder="Unsigned Upload Preset (e.g. gh_unsigned)" class="px-3 py-2 rounded bg-charcoal border border-white/15 text-white" />
+              </div>
+              <button onclick="saveCloudConfig()" class="gold-gradient-bg text-obsidian font-bold px-5 py-2 rounded-lg text-xs">
+                Save Cloud Settings
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================================================================== -->
+  <!-- APPLICATION LOGIC, DEFAULT REALISTIC DATA & ADMIN ENGINE              -->
+  <!-- ===================================================================== -->
+  <script>
+    const AUTHORIZED_ADMIN_EMAIL = "f4016572@gmail.com";
+    const STORAGE_KEY = "GH_ELECTRICIAN_CMS_V1";
+
+    // Default Initial Website Data (100% English, Tailored to Ghulam Hussain)
+    const defaultSiteData = {
+      passcode: "GH7301",
+      cloudinaryName: "",
+      cloudinaryPreset: "",
+      company: {
+        companyName: "GH ELECTRICIAN",
+        ownerName: "Ghulam Hussain",
+        tagline: "Complete Building Wiring Contracts, Luxury Architectural Lighting & Rapid Fault Resolution",
+        heroIntro: "Led by Master Electrician Ghulam Hussain with over 8+ years of hands-on experience. From complete concealed wiring contracts for newly constructed multi-storey residential buildings, commercial complexes, and offices to breathtaking false-ceiling profile lighting, chandelier installations, and fast fault repair.",
+        aboutDesc: "Founded and led by Ghulam Hussain, GH ELECTRICIAN brings over 8 years of specialized expertise in residential, commercial, and multi-storey building electrical contracting. Supported by a dedicated crew of 3 to 4 skilled technicians, we undertake complete turnkey building wiring contracts—handling every stage from initial wall chasing and concealed underground conduit piping to balanced load distribution boards (MCB/RCCB) and high-end architectural lighting finishes.",
+        mission: "To deliver safe, overload-protected concealed electrical networks and luxury final lighting installations with zero compromise on wire gauge quality, safety standards, or project timelines.",
+        vision: "To be the most trusted electrical contracting brand known for transforming raw brick structures into smart, brilliantly illuminated modern homes and commercial spaces.",
+        phone: "+91 7301346822",
+        whatsapp: "917301346822",
+        email: "f4016572@gmail.com",
+        address: "Bara Guraru, District Gaya, Bihar",
+        mapUrl: "https://www.google.com/maps/search/?api=1&query=Bara+Guraru+Gaya+Bihar",
+        instaUrl: "https://www.instagram.com/gh_electrician"
+      },
+      services: [
+        {
+          id: "srv-1",
+          title: "2–3 Storey Building Full Wiring Contract",
+          badge: "Turnkey Contract",
+          desc: "Complete end-to-end electrical contracting for newly constructed multi-storey houses and buildings—from roof slab conduit piping to final switchboard commissioning.",
+          img: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=900&q=80"
+        },
+        {
+          id: "srv-2",
+          title: "Heavy Final Look & False Ceiling Lighting",
+          badge: "Luxury Finish",
+          desc: "Architectural LED profile strips, royal chandeliers, concealed cove lighting, magnetic track lights, and designer exterior facade illumination.",
+          img: "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=900&q=80"
+        },
+        {
+          id: "srv-3",
+          title: "Concealed Underground Piping & Wall Chasing",
+          badge: "Foundation Stage",
+          desc: "Precision machine wall cutting, heavy-duty PVC conduit routing, and modular metal box installation before wall plastering.",
+          img: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=900&q=80"
+        },
+        {
+          id: "srv-4",
+          title: "MCB, RCCB & Distribution Board (DB) Setup",
+          badge: "Load Protection",
+          desc: "Floor-wise balanced three-phase and single-phase DB dressing, shock-proof RCCB protection, automatic changeover switches, and deep earthing.",
+          img: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=900&q=80"
+        },
+        {
+          id: "srv-5",
+          title: "Complete House Rewiring & Load Upgrade",
+          badge: "Renovation",
+          desc: "Replacing aging or damaged wiring in existing buildings with flame-retardant copper cables and modern modular glass switchboards.",
+          img: "https://images.unsplash.com/photo-1544724569-5f546fd6f2b5?auto=format&fit=crop&w=900&q=80"
+        },
+        {
+          id: "srv-6",
+          title: "Inverter, UPS & Heavy Appliance Wiring",
+          badge: "Power Backup",
+          desc: "Dedicated high-load points for Air Conditioners, Geysers, Water Motors, Mainline Voltage Stabilizers, and seamless inverter backup lines.",
+          img: "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=900&q=80"
+        },
+        {
+          id: "srv-7",
+          title: "Commercial Shop, Showroom & Office Setup",
+          badge: "Commercial",
+          desc: "High-lumen display lighting, signage power circuits, workstation power distribution, and CCTV power wiring for retail and corporate spaces.",
+          img: "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=900&q=80"
+        },
+        {
+          id: "srv-8",
+          title: "Rapid Fault Finding & Short-Circuit Repair",
+          badge: "Urgent Support",
+          desc: "Fast diagnostic troubleshooting for tripping breakers, burnt neutral lines, voltage fluctuations, and emergency power restoration.",
+          img: "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&w=900&q=80"
+        }
+      ],
+      projects: [
+        {
+          id: "prj-1",
+          title: "3-Storey Modern Residence — Full Wiring & Luxury Ceiling Lighting",
+          category: "Turnkey Building Contract",
+          desc: "Executed complete concealed conduit piping on bare brick walls followed by warm LED profile channels, recessed COB spotlights, and crystal chandelier installation.",
+          afterImg: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1000&q=80",
+          beforeImg: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1000&q=80"
+        },
+        {
+          id: "prj-2",
+          title: "Duplex Living Hall — Heavy Designer Final Lighting Look",
+          category: "Before & After Transformation",
+          desc: "Transformed raw concrete ceiling slabs and wall grooves into a multi-layered ambient lighting hall with smart modular touch switches.",
+          afterImg: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1000&q=80",
+          beforeImg: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1000&q=80"
+        },
+        {
+          id: "prj-3",
+          title: "Commercial Showroom — High-Load DB Panel & Track Lighting",
+          category: "Commercial Project",
+          desc: "Three-phase distribution board wiring with dedicated AC circuits and high-CRI architectural spotlights for maximum product visibility.",
+          afterImg: "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1000&q=80",
+          beforeImg: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1000&q=80"
+        }
+      ],
+      gallery: [
+        {
+          id: "gal-1",
+          title: "Luxury False Ceiling LED Profile & Chandelier Finish",
+          category: "final",
+          type: "image",
+          url: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80"
+        },
+        {
+          id: "gal-2",
+          title: "Warm Architectural Cove & Wall Washer Lighting",
+          category: "final",
+          type: "image",
+          url: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=80"
+        },
+        {
+          id: "gal-3",
+          title: "Precision MCB & RCCB Distribution Panel Dressing",
+          category: "wiring",
+          type: "image",
+          url: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=900&q=80"
+        },
+        {
+          id: "gal-4",
+          title: "Exterior Building Facade Night Illumination",
+          category: "final",
+          type: "image",
+          url: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=900&q=80"
+        },
+        {
+          id: "gal-5",
+          title: "Concealed Conduit Piping & Heavy Gauge Cabling",
+          category: "wiring",
+          type: "image",
+          url: "https://images.unsplash.com/photo-1544724569-5f546fd6f2b5?auto=format&fit=crop&w=900&q=80"
+        },
+        {
+          id: "gal-6",
+          title: "Designer Bedroom Pendant & Profile Lighting Look",
+          category: "final",
+          type: "image",
+          url: "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=900&q=80"
+        }
+      ],
+      team: [
+        {
+          id: "tm-1",
+          name: "Ghulam Hussain",
+          role: "Founder & Lead Electrical Contractor (8+ Years Experience)",
+          phone: "+91 7301346822",
+          img: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=600&q=80"
+        }
+      ],
+      enquiries: []
+    };
+
+    let siteData = loadSiteData();
+    let currentGalleryFilter = "all";
+
+    function loadSiteData() {
+      try {
+        const raw = localStorage.getItem(STORAGE_KEY);
+        if (!raw) return JSON.parse(JSON.stringify(defaultSiteData));
+        const parsed = JSON.parse(raw);
+        return { ...defaultSiteData, ...parsed, company: { ...defaultSiteData.company, ...(parsed.company || {}) } };
+      } catch (e) {
+        return JSON.parse(JSON.stringify(defaultSiteData));
+      }
+    }
+
+    function saveSiteData() {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(siteData));
+      renderAllPublicSections();
+      renderAllAdminLists();
+    }
+
+    // Render Public Website
+    function renderAllPublicSections() {
+      const c = siteData.company;
+      document.getElementById("nav-company-name").textContent = c.companyName;
+      document.getElementById("hero-company-name").textContent = c.companyName;
+      document.getElementById("footer-company-name").textContent = c.companyName;
+      document.getElementById("hero-tagline").textContent = c.tagline;
+      document.getElementById("hero-intro").textContent = c.heroIntro;
+      document.getElementById("about-description").textContent = c.aboutDesc;
+      document.getElementById("about-mission").textContent = c.mission;
+      document.getElementById("about-vision").textContent = c.vision;
+
+      // Contact & Card Details
+      document.getElementById("card-owner-name").textContent = c.ownerName.toUpperCase();
+      document.getElementById("card-phone").textContent = c.phone;
+      document.getElementById("card-phone").href = "tel:" + c.phone.replace(/\s+/g, "");
+      document.getElementById("card-email").textContent = c.email;
+      document.getElementById("card-email").href = "mailto:" + c.email;
+      document.getElementById("card-address").textContent = c.address;
+      document.getElementById("card-insta").href = c.instaUrl;
+
+      const cleanTel = "tel:" + c.phone.replace(/\s+/g, "");
+      const waLink = `https://wa.me/${c.whatsapp.replace(/\D/g, "")}?text=Hello%20${encodeURIComponent(c.companyName)}%2C%20I%20want%20to%20discuss%20electrical%20work.`;
+
+      document.getElementById("nav-call-btn").href = cleanTel;
+      document.getElementById("hero-call-btn").href = cleanTel;
+      document.getElementById("hero-wa-btn").href = waLink;
+
+      document.getElementById("contact-phone-card").href = cleanTel;
+      document.getElementById("contact-phone-text").textContent = c.phone;
+      document.getElementById("contact-wa-card").href = waLink;
+      document.getElementById("contact-wa-text").textContent = c.phone;
+      document.getElementById("contact-email-card").href = "mailto:" + c.email;
+      document.getElementById("contact-email-text").textContent = c.email;
+      document.getElementById("contact-map-card").href = c.mapUrl;
+      document.getElementById("contact-address-text").textContent = c.address;
+      document.getElementById("footer-insta").href = c.instaUrl;
+
+      // Render Services
+      const srvGrid = document.getElementById("services-grid");
+      srvGrid.innerHTML = siteData.services.map(s => `
+        <div class="bg-charcoal rounded-2xl overflow-hidden gold-border-glow flex flex-col justify-between group">
+          <div>
+            <div class="h-48 overflow-hidden relative">
+              <img src="${s.img}" alt="${s.title}" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+              <span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-obsidian/90 border border-gold/40 text-gold text-[11px] font-bold uppercase tracking-wider">
+                ${s.badge || "Electrical Service"}
+              </span>
+            </div>
+            <div class="p-5">
+              <h3 class="text-lg font-bold text-white leading-snug">${s.title}</h3>
+              <p class="mt-2 text-xs sm:text-sm text-gray-400 leading-relaxed">${s.desc}</p>
+            </div>
+          </div>
+          <div class="px-5 pb-5 pt-2">
+            <a href="https://wa.me/${c.whatsapp.replace(/\D/g, "")}?text=Hello%20GH%20Electrician%2C%20I%20need%20information%20about%3A%20${encodeURIComponent(s.title)}" target="_blank" rel="noopener" class="w-full py-2.5 px-4 rounded-xl bg-obsidian hover:bg-gold hover:text-obsidian text-gold border border-gold/30 text-xs font-bold uppercase tracking-wider flex items-center justify-center gap-2 transition">
+              <span>Enquire on WhatsApp</span>
+            </a>
+          </div>
+        </div>
+      `).join("");
+
+      // Render Projects (with Interactive Before / After Toggle)
+      const prjGrid = document.getElementById("projects-grid");
+      prjGrid.innerHTML = siteData.projects.map(p => `
+        <div class="bg-obsidian rounded-2xl overflow-hidden gold-border-glow flex flex-col justify-between">
+          <div>
+            <div class="relative h-64 overflow-hidden bg-black">
+              <img id="prj-img-${p.id}" src="${p.afterImg}" alt="${p.title}" class="w-full h-full object-cover transition duration-300" />
+              <span id="prj-badge-${p.id}" class="absolute top-3 left-3 px-3 py-1 rounded-md bg-gold text-obsidian text-[11px] font-extrabold uppercase tracking-wider shadow">
+                AFTER • HEAVY FINAL LOOK
+              </span>
+              ${p.beforeImg ? `
+              <div class="absolute bottom-3 right-3 flex rounded-lg overflow-hidden border border-gold/50 shadow-lg">
+                <button onclick="switchProjectStage('${p.id}', 'before', '${p.beforeImg}')" id="btn-before-${p.id}" class="px-3 py-1.5 text-[11px] font-bold uppercase bg-obsidian/90 text-gray-300 hover:text-white transition">
+                  Before (Piping)
+                </button>
+                <button onclick="switchProjectStage('${p.id}', 'after', '${p.afterImg}')" id="btn-after-${p.id}" class="px-3 py-1.5 text-[11px] font-bold uppercase bg-gold text-obsidian transition">
+                  After (Final Light)
+                </button>
+              </div>
+              ` : ""}
+            </div>
+            <div class="p-6">
+              <span class="text-[11px] font-bold uppercase tracking-widest text-gold">${p.category}</span>
+              <h3 class="text-lg font-bold text-white mt-1">${p.title}</h3>
+              <p class="mt-2 text-sm text-gray-400 leading-relaxed">${p.desc}</p>
+            </div>
+          </div>
+        </div>
+      `).join("");
+
+      // Render Gallery
+      renderGalleryItems();
+
+      // Render Team
+      const teamGrid = document.getElementById("team-grid");
+      teamGrid.innerHTML = siteData.team.map(t => `
+        <div class="bg-charcoal rounded-2xl p-6 gold-border-glow flex items-center gap-5">
+          <img src="${t.img}" alt="${t.name}" class="w-20 h-20 rounded-2xl object-cover border-2 border-gold shrink-0" />
+          <div>
+            <h3 class="text-lg font-bold text-white">${t.name}</h3>
+            <p class="text-xs text-gold font-semibold mt-0.5">${t.role}</p>
+            ${t.phone ? `<a href="tel:${t.phone.replace(/\s+/g, "")}" class="inline-block mt-2 text-xs text-gray-300 hover:text-gold font-medium">${t.phone}</a>` : ""}
+          </div>
+        </div>
+      `).join("");
+
+      if (window.lucide) lucide.createIcons();
+    }
+
+    function switchProjectStage(id, stage, imgUrl) {
+      const imgEl = document.getElementById(`prj-img-${id}`);
+      const badgeEl = document.getElementById(`prj-badge-${id}`);
+      const btnBefore = document.getElementById(`btn-before-${id}`);
+      const btnAfter = document.getElementById(`btn-after-${id}`);
+      if (!imgEl) return;
+      imgEl.src = imgUrl;
+      if (stage === "before") {
+        badgeEl.textContent = "BEFORE • CONCEALED PIPING STAGE";
+        badgeEl.className = "absolute top-3 left-3 px-3 py-1 rounded-md bg-charcoal text-gold border border-gold/40 text-[11px] font-extrabold uppercase tracking-wider shadow";
+        btnBefore.className = "px-3 py-1.5 text-[11px] font-bold uppercase bg-gold text-obsidian transition";
+        btnAfter.className = "px-3 py-1.5 text-[11px] font-bold uppercase bg-obsidian/90 text-gray-300 transition";
+      } else {
+        badgeEl.textContent = "AFTER • HEAVY FINAL LOOK";
+        badgeEl.className = "absolute top-3 left-3 px-3 py-1 rounded-md bg-gold text-obsidian text-[11px] font-extrabold uppercase tracking-wider shadow";
+        btnAfter.className = "px-3 py-1.5 text-[11px] font-bold uppercase bg-gold text-obsidian transition";
+        btnBefore.className = "px-3 py-1.5 text-[11px] font-bold uppercase bg-obsidian/90 text-gray-300 transition";
+      }
+    }
+
+    function filterGallery(cat) {
+      currentGalleryFilter = cat;
+      ["all", "final", "wiring", "video"].forEach(k => {
+        const btn = document.getElementById("filter-" + k);
+        if (btn) {
+          btn.className = (k === cat)
+            ? "px-4 py-2 rounded-lg text-xs font-bold uppercase tracking-wider bg-gold text-obsidian transition"
+            : "px-4 py-2 rounded-lg text-xs font-bold uppercase tracking-wider bg-charcoal text-gray-300 border border-white/10 hover:border-gold transition";
+        }
+      });
+      renderGalleryItems();
+    }
+
+    function renderGalleryItems() {
+      const galGrid = document.getElementById("gallery-grid");
+      const items = currentGalleryFilter === "all"
+        ? siteData.gallery
+        : siteData.gallery.filter(g => g.category === currentGalleryFilter || (currentGalleryFilter === "video" && g.type === "video"));
+
+      galGrid.innerHTML = items.map(g => {
+        let mediaHtml = "";
+        if (g.type === "video" || g.category === "video") {
+          if (g.url.includes("youtube.com") || g.url.includes("youtu.be")) {
+            const videoId = g.url.includes("v=") ? g.url.split("v=")[1].split("&")[0] : g.url.split("/").pop();
+            mediaHtml = `<iframe class="w-full h-60" src="https://www.youtube.com/embed/${videoId}" allowfullscreen></iframe>`;
+          } else {
+            mediaHtml = `<video src="${g.url}" controls class="w-full h-60 object-cover bg-black"></video>`;
+          }
+        } else {
+          mediaHtml = `<img src="${g.url}" alt="${g.title}" class="w-full h-60 object-cover group-hover:scale-105 transition duration-500" />`;
+        }
+        return `
+          <div class="bg-charcoal rounded-2xl overflow-hidden gold-border-glow group">
+            <div class="overflow-hidden relative">${mediaHtml}</div>
+            <div class="p-4 flex items-center justify-between">
+              <p class="text-sm font-semibold text-white">${g.title}</p>
+              <span class="text-[10px] uppercase tracking-wider px-2.5 py-1 rounded bg-obsidian text-gold border border-gold/30">${g.category}</span>
+            </div>
+          </div>
+        `;
+      }).join("");
+    }
+
+    // Customer Enquiry Submission
+    function submitEnquiry(e) {
+      e.preventDefault();
+      const newEnq = {
+        id: "enq-" + Date.now(),
+        name: document.getElementById("enq-name").value.trim(),
+        phone: document.getElementById("enq-phone").value.trim(),
+        service: document.getElementById("enq-service").value,
+        message: document.getElementById("enq-message").value.trim(),
+        date: new Date().toLocaleString("en-IN"),
+        status: "New"
+      };
+      siteData.enquiries.unshift(newEnq);
+      saveSiteData();
+      document.getElementById("enquiry-form").reset();
+      const banner = document.getElementById("enquiry-success");
+      banner.classList.remove("hidden");
+      setTimeout(() => banner.classList.add("hidden"), 7000);
+    }
+
+    // Download VCard (.vcf) for Smartphone QR Scanners
+    function downloadVCard() {
+      const c = siteData.company;
+      const vcf = [
+        "BEGIN:VCARD",
+        "VERSION:3.0",
+        `FN:${c.ownerName} (${c.companyName})`,
+        `ORG:${c.companyName}`,
+        `TITLE:Electrical Contractor & Specialist`,
+        `TEL;TYPE=CELL,VOICE:${c.phone}`,
+        `EMAIL:${c.email}`,
+        `ADR;TYPE=WORK:;;${c.address};;;;`,
+        `URL:${window.location.href}`,
+        "END:VCARD"
+      ].join("\n");
+      const blob = new Blob([vcf], { type: "text/vcard" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = "GH_Electrician_Ghulam_Hussain.vcf";
+      a.click();
+    }
+
+    // Mobile Menu
+    function toggleMobileMenu() {
+      document.getElementById("mobile-menu").classList.toggle("hidden");
+    }
+
+    // =========================================================================
+    // ADMIN PANEL FUNCTIONS
+    // =========================================================================
+    function openAdminModal() {
+      document.getElementById("admin-modal").classList.remove("hidden");
+      populateAdminInputs();
+      renderAllAdminLists();
+    }
+
+    function closeAdminModal() {
+      document.getElementById("admin-modal").classList.add("hidden");
+    }
+
+    function loginWithPasscode(e) {
+      e.preventDefault();
+      const email = document.getElementById("admin-email-input").value.trim().toLowerCase();
+      const pass = document.getElementById("admin-pass-input").value.trim();
+      const errEl = document.getElementById("admin-login-error");
+
+      if (email !== AUTHORIZED_ADMIN_EMAIL) {
+        errEl.textContent = "Access Denied: Only f4016572@gmail.com is authorized.";
+        errEl.classList.remove("hidden");
+        return;
+      }
+      if (pass !== siteData.passcode) {
+        errEl.textContent = "Invalid Admin Passcode.";
+        errEl.classList.remove("hidden");
+        return;
+      }
+      errEl.classList.add("hidden");
+      unlockAdminUI();
+    }
+
+    function signInWithGoogleAdmin() {
+      const emailPrompt = prompt("Confirm your Google Account email to verify administrator access:", AUTHORIZED_ADMIN_EMAIL);
+      if (!emailPrompt) return;
+      if (emailPrompt.trim().toLowerCase() !== AUTHORIZED_ADMIN_EMAIL) {
+        alert("Unauthorized Google Account! Only " + AUTHORIZED_ADMIN_EMAIL + " is allowed.");
+        return;
+      }
+      const pass = prompt("Enter your Admin Security Passcode (Default: GH7301):");
+      if (pass === siteData.passcode) {
+        unlockAdminUI();
+      } else {
+        alert("Incorrect passcode.");
+      }
+    }
+
+    function unlockAdminUI() {
+      document.getElementById("admin-login-view").classList.add("hidden");
+      document.getElementById("admin-dashboard-view").classList.remove("hidden");
+      document.getElementById("admin-logout-btn").classList.remove("hidden");
+      populateAdminInputs();
+      renderAllAdminLists();
+    }
+
+    function adminLogout() {
+      document.getElementById("admin-dashboard-view").classList.add("hidden");
+      document.getElementById("admin-login-view").classList.remove("hidden");
+      document.getElementById("admin-logout-btn").classList.add("hidden");
+    }
+
+    function switchAdminTab(tabName) {
+      document.querySelectorAll(".admin-tab-pane").forEach(el => el.classList.add("hidden"));
+      document.getElementById("tab-" + tabName).classList.remove("hidden");
+      document.querySelectorAll(".admin-tab-btn").forEach(btn => {
+        btn.className = (btn.dataset.tab === tabName)
+          ? "admin-tab-btn px-3.5 py-2 rounded-lg text-xs font-bold bg-gold text-obsidian"
+          : "admin-tab-btn px-3.5 py-2 rounded-lg text-xs font-bold bg-charcoal text-gray-300";
+      });
+    }
+
+    function populateAdminInputs() {
+      const c = siteData.company;
+      document.getElementById("cfg-companyName").value = c.companyName;
+      document.getElementById("cfg-ownerName").value = c.ownerName;
+      document.getElementById("cfg-tagline").value = c.tagline;
+      document.getElementById("cfg-heroIntro").value = c.heroIntro;
+      document.getElementById("cfg-aboutDesc").value = c.aboutDesc;
+      document.getElementById("cfg-mission").value = c.mission;
+      document.getElementById("cfg-vision").value = c.vision;
+      document.getElementById("cfg-phone").value = c.phone;
+      document.getElementById("cfg-whatsapp").value = c.whatsapp;
+      document.getElementById("cfg-email").value = c.email;
+      document.getElementById("cfg-address").value = c.address;
+      document.getElementById("cfg-mapUrl").value = c.mapUrl;
+      document.getElementById("cfg-instaUrl").value = c.instaUrl;
+      document.getElementById("cld-cloud-name").value = siteData.cloudinaryName || "";
+      document.getElementById("cld-upload-preset").value = siteData.cloudinaryPreset || "";
+    }
+
+    function saveCompanyConfig() {
+      siteData.company = {
+        companyName: document.getElementById("cfg-companyName").value.trim(),
+        ownerName: document.getElementById("cfg-ownerName").value.trim(),
+        tagline: document.getElementById("cfg-tagline").value.trim(),
+        heroIntro: document.getElementById("cfg-heroIntro").value.trim(),
+        aboutDesc: document.getElementById("cfg-aboutDesc").value.trim(),
+        mission: document.getElementById("cfg-mission").value.trim(),
+        vision: document.getElementById("cfg-vision").value.trim(),
+        phone: document.getElementById("cfg-phone").value.trim(),
+        whatsapp: document.getElementById("cfg-whatsapp").value.trim(),
+        email: document.getElementById("cfg-email").value.trim(),
+        address: document.getElementById("cfg-address").value.trim(),
+        mapUrl: document.getElementById("cfg-mapUrl").value.trim(),
+        instaUrl: document.getElementById("cfg-instaUrl").value.trim()
+      };
+      saveSiteData();
+      alert("Company & Contact Information updated on the website!");
+    }
+
+    // File Upload Helper (Supports Cloudinary + Automatic Base64 Local Fallback)
+    async function processMediaUpload(fileInput, urlInput) {
+      if (urlInput && urlInput.value.trim() !== "") {
+        return urlInput.value.trim();
+      }
+      if (!fileInput || !fileInput.files || !fileInput.files[0]) {
+        return "";
+      }
+      const file = fileInput.files[0];
+
+      // If Cloudinary is configured, upload directly to Cloudinary
+      if (siteData.cloudinaryName && siteData.cloudinaryPreset) {
+        const formData = new FormData();
+        formData.append("file", file);
+        formData.append("upload_preset", siteData.cloudinaryPreset);
+        const res = await fetch(`https://api.cloudinary.com/v1_1/${siteData.cloudinaryName}/auto/upload`, {
+          method: "POST",
+          body: formData
+        });
+        const data = await res.json();
+        if (data.secure_url) return data.secure_url;
+      }
+
+      // Fallback: Convert file to Data URL for immediate storage
+      return new Promise((resolve) => {
+        const reader = new FileReader();
+        reader.onload = (e) => resolve(e.target.result);
+        reader.readAsDataURL(file);
+      });
+    }
+
+    async function addServiceItem() {
+      const title = document.getElementById("new-srv-title").value.trim();
+      const badge = document.getElementById("new-srv-badge").value.trim() || "Electrical Service";
+      const desc = document.getElementById("new-srv-desc").value.trim();
+      if (!title || !desc) return alert("Please enter Service Title and Description.");
+      const img = await processMediaUpload(
+        document.getElementById("new-srv-file"),
+        document.getElementById("new-srv-url")
+      ) || "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=900&q=80";
+
+      siteData.services.push({ id: "srv-" + Date.now(), title, badge, desc, img });
+      saveSiteData();
+      document.getElementById("new-srv-title").value = "";
+      document.getElementById("new-srv-badge").value = "";
+      document.getElementById("new-srv-desc").value = "";
+      document.getElementById("new-srv-url").value = "";
+      document.getElementById("new-srv-file").value = "";
+    }
+
+    function deleteServiceItem(id) {
+      siteData.services = siteData.services.filter(s => s.id !== id);
+      saveSiteData();
+    }
+
+    async function addProjectItem() {
+      const title = document.getElementById("new-prj-title").value.trim();
+      const category = document.getElementById("new-prj-cat").value.trim() || "Turnkey Project";
+      const desc = document.getElementById("new-prj-desc").value.trim();
+      if (!title) return alert("Please enter a Project Title.");
+
+      const afterImg = await processMediaUpload(
+        document.getElementById("new-prj-after-file"),
+        document.getElementById("new-prj-after-url")
+      ) || "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1000&q=80";
+
+      const beforeImg = await processMediaUpload(
+        document.getElementById("new-prj-before-file"),
+        document.getElementById("new-prj-before-url")
+      );
+
+      siteData.projects.unshift({ id: "prj-" + Date.now(), title, category, desc, afterImg, beforeImg });
+      saveSiteData();
+      document.getElementById("new-prj-title").value = "";
+      document.getElementById("new-prj-cat").value = "";
+      document.getElementById("new-prj-desc").value = "";
+      document.getElementById("new-prj-after-url").value = "";
+      document.getElementById("new-prj-before-url").value = "";
+    }
+
+    function deleteProjectItem(id) {
+      siteData.projects = siteData.projects.filter(p => p.id !== id);
+      saveSiteData();
+    }
+
+    async function addGalleryItem() {
+      const title = document.getElementById("new-gal-title").value.trim() || "GH Electrician Work";
+      const category = document.getElementById("new-gal-category").value;
+      const fileEl = document.getElementById("new-gal-file");
+      const urlEl = document.getElementById("new-gal-url");
+
+      const url = await processMediaUpload(fileEl, urlEl);
+      if (!url) return alert("Please select a photo/video file or paste a valid URL.");
+
+      const isVideo = category === "video" || (fileEl.files[0] && fileEl.files[0].type.startsWith("video/"));
+      siteData.gallery.unshift({
+        id: "gal-" + Date.now(),
+        title,
+        category,
+        type: isVideo ? "video" : "image",
+        url
+      });
+      saveSiteData();
+      document.getElementById("new-gal-title").value = "";
+      document.getElementById("new-gal-url").value = "";
+      fileEl.value = "";
+    }
+
+    function deleteGalleryItem(id) {
+      siteData.gallery = siteData.gallery.filter(g => g.id !== id);
+      saveSiteData();
+    }
+
+    async function addTeamMember() {
+      const name = document.getElementById("new-team-name").value.trim();
+      const role = document.getElementById("new-team-role").value.trim();
+      const phone = document.getElementById("new-team-phone").value.trim();
+      if (!name || !role) return alert("Please enter Name and Designation.");
+      const img = await processMediaUpload(
+        document.getElementById("new-team-file"),
+        document.getElementById("new-team-url")
+      ) || "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=600&q=80";
+
+      siteData.team.push({ id: "tm-" + Date.now(), name, role, phone, img });
+      saveSiteData();
+      document.getElementById("new-team-name").value = "";
+      document.getElementById("new-team-role").value = "";
+      document.getElementById("new-team-phone").value = "";
+    }
+
+    function deleteTeamMember(id) {
+      siteData.team = siteData.team.filter(t => t.id !== id);
+      saveSiteData();
+    }
+
+    function deleteEnquiry(id) {
+      siteData.enquiries = siteData.enquiries.filter(e => e.id !== id);
+      saveSiteData();
+    }
+
+    function updateAdminPasscode() {
+      const newPass = document.getElementById("sec-admin-pass").value.trim();
+      if (!newPass) return alert("Enter a valid new passcode.");
+      siteData.passcode = newPass;
+      saveSiteData();
+      alert("Admin Passcode updated!");
+    }
+
+    function saveCloudConfig() {
+      siteData.cloudinaryName = document.getElementById("cld-cloud-name").value.trim();
+      siteData.cloudinaryPreset = document.getElementById("cld-upload-preset").value.trim();
+      saveSiteData();
+      alert("Cloudinary settings saved!");
+    }
+
+    function renderAllAdminLists() {
+      // Enquiries List
+      const enqEl = document.getElementById("admin-enquiries-list");
+      if (siteData.enquiries.length === 0) {
+        enqEl.innerHTML = `<p class="text-xs text-gray-400 bg-obsidian p-4 rounded-xl border border-white/10">No customer enquiries submitted yet.</p>`;
+      } else {
+        enqEl.innerHTML = siteData.enquiries.map(e => `
+          <div class="bg-obsidian p-4 rounded-xl border border-white/10 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+            <div>
+              <div class="flex items-center gap-2">
+                <span class="font-bold text-white text-sm">${e.name}</span>
+                <span class="text-xs text-gold font-semibold">${e.phone}</span>
+                <span class="text-[10px] text-gray-500">${e.date}</span>
+              </div>
+              <p class="text-xs text-gold mt-1 font-medium">${e.service}</p>
+              <p class="text-xs text-gray-300 mt-1">${e.message}</p>
+            </div>
+            <div class="flex items-center gap-2 shrink-0">
+              <a href="tel:${e.phone}" class="px-3 py-1.5 rounded bg-gold text-obsidian font-bold text-xs">Call</a>
+              <a href="https://wa.me/${e.phone.replace(/\D/g, "")}?text=Hello%20${encodeURIComponent(e.name)}%2C%20this%20is%20Ghulam%20Hussain%20from%20GH%20ELECTRICIAN%20regarding%20your%20enquiry." target="_blank" class="px-3 py-1.5 rounded bg-[#1FAF54] text-white font-bold text-xs">WhatsApp</a>
+              <button onclick="deleteEnquiry('${e.id}')" class="px-2.5 py-1.5 rounded bg-red-500/20 text-red-300 text-xs">Delete</button>
+            </div>
+          </div>
+        `).join("");
+      }
+
+      // Services Admin List
+      document.getElementById("admin-services-list").innerHTML = siteData.services.map(s => `
+        <div class="bg-obsidian p-3.5 rounded-xl border border-white/10 flex items-center justify-between gap-3">
+          <div class="flex items-center gap-3">
+            <img src="${s.img}" class="w-12 h-12 rounded-lg object-cover" />
+            <div>
+              <p class="text-xs font-bold text-white">${s.title}</p>
+              <p class="text-[11px] text-gold">${s.badge}</p>
+            </div>
+          </div>
+          <button onclick="deleteServiceItem('${s.id}')" class="text-xs text-red-400 hover:underline">Delete</button>
+        </div>
+      `).join("");
+
+      // Projects Admin List
+      document.getElementById("admin-projects-list").innerHTML = siteData.projects.map(p => `
+        <div class="bg-obsidian p-3.5 rounded-xl border border-white/10 flex items-center justify-between gap-3">
+          <div class="flex items-center gap-3">
+            <img src="${p.afterImg}" class="w-12 h-12 rounded-lg object-cover" />
+            <div>
+              <p class="text-xs font-bold text-white">${p.title}</p>
+              <p class="text-[11px] text-gold">${p.category}</p>
+            </div>
+          </div>
+          <button onclick="deleteProjectItem('${p.id}')" class="text-xs text-red-400 hover:underline">Delete</button>
+        </div>
+      `).join("");
+
+      // Gallery Admin List
+      document.getElementById("admin-gallery-list").innerHTML = siteData.gallery.map(g => `
+        <div class="bg-obsidian p-3 rounded-xl border border-white/10 flex items-center justify-between gap-2">
+          <span class="text-xs text-white truncate">${g.title}</span>
+          <button onclick="deleteGalleryItem('${g.id}')" class="text-xs text-red-400 shrink-0">Delete</button>
+        </div>
+      `).join("");
+
+      // Team Admin List
+      document.getElementById("admin-team-list").innerHTML = siteData.team.map(t => `
+        <div class="bg-obsidian p-3.5 rounded-xl border border-white/10 flex items-center justify-between gap-3">
+          <div>
+            <p class="text-xs font-bold text-white">${t.name}</p>
+            <p class="text-[11px] text-gold">${t.role}</p>
+          </div>
+          <button onclick="deleteTeamMember('${t.id}')" class="text-xs text-red-400">Remove</button>
+        </div>
+      `).join("");
+    }
+
+    // Initialize on Page Load
+    document.getElementById("year").textContent = new Date().getFullYear();
+    renderAllPublicSections();
+  </script>
+</body>
+</html>
